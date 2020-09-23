@@ -1,14 +1,14 @@
 import  React , { Component }from 'react'
 
-class Content extends Component{
+class ReadContent extends Component{
     render() {
       return (
         <div>
            <h2>{this.props.title}</h2>
-          {this.props.ds}
+          {this.props.desc}
         </div>
       )
     }
   }
 
-  export default Content;
+  export default ReadContent;
